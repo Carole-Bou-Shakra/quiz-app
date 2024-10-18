@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;  /* Ensure full viewport height */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+body {
+  background-image: url('src/assets/background.jpg'); /* Correctly set the path to your background image */
+  background-size: cover; /* Make the background image cover the entire area */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

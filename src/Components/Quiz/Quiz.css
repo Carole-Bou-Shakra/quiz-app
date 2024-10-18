@@ -1,0 +1,134 @@
+.container{
+    width: 780px;
+    margin: auto; 
+    margin-top: 100px;
+    background: #bdc4ed;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 50px 80px;
+}
+.container hr{
+    height: 2px;
+    border: none;
+    background: #707070;
+}
+.container h2{
+    font-size: 27px;
+    font-weight: 500px;
+}
+.container ul li{
+    display: flex;
+    align-items: center;
+    height: 40px; 
+    padding-left: 20px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 10px; 
+    font-size: 20px;
+    cursor: pointer; 
+} 
+.container button{
+    margin: auto;
+    width: 120px;
+    height: 40px;
+    background:#9a65bd;
+    color: white;
+    font-size: 18px;
+    font-weight: 200px; 
+    border-radius: 15px;
+    cursor: pointer;
+}
+.container button:hover {
+    background-color:#532f8f;
+  }
+.container .index{
+    margin: auto;
+    font-size: 18px;
+}
+.container .correct{
+    background:  rgb(93, 210, 93);
+    border-color: rgb(93, 210, 93);
+}
+.container .wrong{
+    background: red;
+    border-color: red;
+}
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .carousel img {
+    max-width: 300px;
+    height: auto;
+  }
+  
+  .carousel button {
+    background:#9a65bd;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel button:hover {
+    background-color:#532f8f;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      max-width: 50%;
+      padding: 25px;
+    }
+  
+    h1 {
+      font-size: 28px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  
+    ul li {
+      font-size: 16px;
+    }
+  
+    .carousel img {
+      max-width: 300px;
+    }
+  }
+  
+  /* Mobile Devices */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 50%;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  
+    ul li {
+      font-size: 14px;
+      padding: 22px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  
+    .carousel img {
+      max-width: 280px;
+    }
+  }
+  
